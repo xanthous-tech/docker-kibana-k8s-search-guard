@@ -1,0 +1,13 @@
+server:
+  name: kibana
+  host: "0"
+
+elasticsearch:
+  url: http://elasticsearch:9200
+  username: kibanaserver
+  password: kibanaserver
+  ssl.verificationMode: none
+
+xpack:
+  security.enabled: false
+  monitoring.ui.container.elasticsearch.enabled: true
